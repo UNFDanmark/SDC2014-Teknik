@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Beep"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Init beep (skal kun kaldes en gang)"
+                    android:id="@+id/btnInitBeep" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Starwars"
+                    android:id="@+id/btnStarwars" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Axel Foley"
+                    android:id="@+id/btnAxelFoley" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Final Count Down"
+                    android:id="@+id/btnFinalCountDown" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tetris"
+                    android:id="@+id/btnTetris" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aerodynamic"
+                    android:id="@+id/btnAerodynamic" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alarm"
+                    android:id="@+id/btnAlarm" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Für Lise"
+                    android:id="@+id/btnFurLise" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phaser"
+                    android:id="@+id/btnPhaser" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ring"
+                    android:id="@+id/btnRing" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Awesome"
+                    android:id="@+id/btnAwesome" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Game of thrones"
+                    android:id="@+id/btnGameOfThrones" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Let it go"
+                    android:id="@+id/btnLetItGo" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nyan cat"
+                    android:id="@+id/btnNyan" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pokemon"
+                    android:id="@+id/btnPoke" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Darude Sandstorm"
+                    android:id="@+id/btnRudeSandStorm" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Epic sax guy"
+                    android:id="@+id/btnEpicSaxGuy" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Harry Potter"
+                    android:id="@+id/btnHarryPotter" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lord of the rings"
+                    android:id="@+id/btnLOTR" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thousand miles"
+                    android:id="@+id/btnThousandMiles" android:layout_gravity="center_horizontal"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15pt"
+                    android:text="Andet"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Skub dvd drev ud"
+                    android:id="@+id/btnEject" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tog"
+                    android:id="@+id/btnSl" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lille tog"
+                    android:id="@+id/btnLittleSl" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Flyvende tog"
+                    android:id="@+id/btnFlySl" android:layout_gravity="center_horizontal"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Flyvende lille uhelds tog"
+                    android:id="@+id/btnFlyLittleSl" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,1 @@
+java -cp .:ssh.jar dk.sahb.sshdo.Main "$1"
